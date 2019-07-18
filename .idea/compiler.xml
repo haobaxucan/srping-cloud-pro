@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aapi-domain" />
+        <module name="aeureca-server" />
+        <module name="aeureca-server2" />
+        <module name="aeureca-server3" />
+        <module name="beureca-consumer" />
+        <module name="beureca-feign-consumer" />
+        <module name="beureca-feign-provider" />
+        <module name="beureca-privoder-hystrix" />
+        <module name="beureca-provider" />
+        <module name="ceureca-zuul" />
+        <module name="czconfig-server" />
+        <module name="eureca-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aapi" target="1.8" />
+      <module name="aapi-domain" target="1.8" />
+      <module name="aeureca-server" target="1.8" />
+      <module name="aeureca-server2" target="1.8" />
+      <module name="aeureca-server3" target="1.8" />
+      <module name="beureca-consumer" target="1.8" />
+      <module name="beureca-consumer-feigndemo" target="1.8" />
+      <module name="beureca-feign-consumer" target="1.8" />
+      <module name="beureca-feign-provider" target="1.8" />
+      <module name="beureca-privoder-hystrix" target="1.8" />
+      <module name="beureca-provider" target="1.8" />
+      <module name="ceureca-zuul" target="1.8" />
+      <module name="czconfig-server" target="1.8" />
+      <module name="eureca-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

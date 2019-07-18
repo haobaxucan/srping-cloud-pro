@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/aapi-domain/aapi-domain.iml" filepath="$PROJECT_DIR$/aapi-domain/aapi-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aeureca-server/aeureca-server.iml" filepath="$PROJECT_DIR$/aeureca-server/aeureca-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aeureca-server2/aeureca-server2.iml" filepath="$PROJECT_DIR$/aeureca-server2/aeureca-server2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aeureca-server3/aeureca-server3.iml" filepath="$PROJECT_DIR$/aeureca-server3/aeureca-server3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beureca-consumer/beureca-consumer.iml" filepath="$PROJECT_DIR$/beureca-consumer/beureca-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beureca-feign-consumer/beureca-feign-consumer.iml" filepath="$PROJECT_DIR$/beureca-feign-consumer/beureca-feign-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beureca-feign-provider/beureca-feign-provider.iml" filepath="$PROJECT_DIR$/beureca-feign-provider/beureca-feign-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beureca-privoder-hystrix/beureca-privoder-hystrix.iml" filepath="$PROJECT_DIR$/beureca-privoder-hystrix/beureca-privoder-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beureca-provider/beureca-provider.iml" filepath="$PROJECT_DIR$/beureca-provider/beureca-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ceureca-zuul/ceureca-zuul.iml" filepath="$PROJECT_DIR$/ceureca-zuul/ceureca-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/czconfig-server/czconfig-server.iml" filepath="$PROJECT_DIR$/czconfig-server/czconfig-server.iml" />
+    </modules>
+  </component>
+</project>

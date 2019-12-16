@@ -9,7 +9,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 public class AeurecaServerApplication {
     //运行 localhost:8088
 	//继续执行
-	//jxu
+	//jxuss
 	public static void main(String[] args) {
 		SpringApplication.run(AeurecaServerApplication.class, args);
 	}

@@ -16,7 +16,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>aeureca-server2</name>
 	<description>Demo project for Spring Boot</description>
-
+<!-- 的jiezhou -->
 	<properties>
 		<java.version>1.8</java.version>
 		<spring-cloud.version>Greenwich.SR2</spring-cloud.version>

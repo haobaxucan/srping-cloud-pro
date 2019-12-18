@@ -4,7 +4,7 @@ import com.ecpss.service.FeignTicketSerivceDemo;
 import org.springframework.stereotype.Component;
 
 /**
- * Created by xc on 2019/7/18.
+ * Created by xc on 2019/7/112221.
  */
 @Component
 public class DemoServiceFallback implements FeignTicketSerivceDemo{

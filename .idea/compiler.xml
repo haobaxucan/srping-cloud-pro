@@ -37,4 +37,19 @@
       <module name="eureca-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="aapi-domain" options="-parameters" />
+      <module name="aeureca-server2" options="-parameters" />
+      <module name="aeureca-server3" options="-parameters" />
+      <module name="beureca-consumer" options="-parameters" />
+      <module name="beureca-feign-consumer" options="-parameters" />
+      <module name="beureca-feign-provider" options="-parameters" />
+      <module name="beureca-privoder-hystrix" options="-parameters" />
+      <module name="beureca-provider" options="-parameters" />
+      <module name="ceureca-zuul" options="-parameters" />
+      <module name="czconfig-server" options="-parameters" />
+      <module name="eureca-server" options="-parameters" />
+    </option>
+  </component>
 </project>

@@ -13,6 +13,8 @@
       <module fileurl="file://$PROJECT_DIR$/beureca-provider/beureca-provider.iml" filepath="$PROJECT_DIR$/beureca-provider/beureca-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/ceureca-zuul/ceureca-zuul.iml" filepath="$PROJECT_DIR$/ceureca-zuul/ceureca-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/czconfig-server/czconfig-server.iml" filepath="$PROJECT_DIR$/czconfig-server/czconfig-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aeureca-server/eureca-server.iml" filepath="$PROJECT_DIR$/aeureca-server/eureca-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/srping-cloud-pro.iml" filepath="$PROJECT_DIR$/.idea/srping-cloud-pro.iml" />
     </modules>
   </component>
 </project>

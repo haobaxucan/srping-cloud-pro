@@ -18,6 +18,7 @@ public class BeurecaFeignConsumerApplication {
 	 */
 
 	public static void main(String[] args) {
+		
 		SpringApplication.run(BeurecaFeignConsumerApplication.class, args);
 	}
 

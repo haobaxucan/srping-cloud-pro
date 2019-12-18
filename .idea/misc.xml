@@ -8,7 +8,6 @@
       <list>
         <option value="$PROJECT_DIR$/eureca-server/pom.xml" />
         <option value="$PROJECT_DIR$/beureca-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/aeureca-server/pom.xml" />
         <option value="$PROJECT_DIR$/beureca-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/aeureca-server2/pom.xml" />
         <option value="$PROJECT_DIR$/beurecab_provider/pom.xml" />

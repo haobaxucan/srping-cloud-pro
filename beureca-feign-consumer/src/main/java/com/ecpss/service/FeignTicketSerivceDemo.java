@@ -9,7 +9,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 @FeignClient(value = "FEIGN-PROVIDER",fallback =DemoServiceFallback.class )
 public interface FeignTicketSerivceDemo extends FeignTicketSerivce{
     /**
-     *
+     *dd
      这里实现服务降级
     备注：Hystrix服务降级，其实就是线程池中单个线程障处理，防止单个线程请求时间太长，导致资源长期被占有而得不到释放，从而导致线程池被快速占用完，导致服务崩溃。
      Hystrix能解决如下问题：

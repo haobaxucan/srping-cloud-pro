@@ -17,7 +17,6 @@
         <module name="beureca-provider" />
         <module name="ceureca-zuul" />
         <module name="czconfig-server" />
-        <module name="eureca-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

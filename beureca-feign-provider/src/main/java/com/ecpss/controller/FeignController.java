@@ -1,6 +1,6 @@
 package com.ecpss.controller;
 
-import com.ecpss.service.TicketSerivce;
+import com.ecpss.service.FeignTicketSerivce;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,10 +17,15 @@ public class FeignController {
      * 这段代码注释后，服务就无法调用
      */
     @Autowired
-    private TicketSerivce ticketSerivce;
+    private FeignTicketSerivce feignTicketSerivce;
     @RequestMapping("/ticket")
     public String getTicket(){
-        String ticket = ticketSerivce.getTicket();
+        String ticket = feignTicketSerivce.getTicket();
         return ticket;
+    }
+    @RequestMapping("/test")
+    public String getTest(){
+        String test = feignTicketSerivce.getTest();
+        return test;
     }
 }

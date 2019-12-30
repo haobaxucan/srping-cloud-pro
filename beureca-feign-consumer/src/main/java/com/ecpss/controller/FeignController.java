@@ -1,7 +1,8 @@
 package com.ecpss.controller;
 
-import com.ecpss.service.FeignTicketSerivceDemo;
+import com.ecpss.service.FeignTicketSerivce;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,14 +13,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class FeignController {
     
     @Autowired
-    private FeignTicketSerivceDemo demo;
-    @RequestMapping("/ticket")
+    private FeignTicketSerivce demo;
+    @RequestMapping("/get")
     public String getTicket(){
+
         return demo.getTicket();
     }
-    @RequestMapping("/test")
-    public String getTest(){
-        return demo.getTest();
-    }
+
     
 }

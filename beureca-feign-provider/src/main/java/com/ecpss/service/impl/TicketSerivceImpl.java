@@ -1,6 +1,6 @@
 package com.ecpss.service.impl;
 
-import com.ecpss.service.TicketSerivce;
+import com.ecpss.service.FeignTicketSerivce;
 import org.springframework.stereotype.Service;
 
 /**
@@ -8,10 +8,15 @@ import org.springframework.stereotype.Service;
  */
 
 @Service
-public class TicketSerivceImpl implements TicketSerivce {
-    
+public class TicketSerivceImpl implements FeignTicketSerivce {
+
     @Override
     public String getTicket() {
-        return "<超神的捷周>";
+        return "xc";
+    }
+
+    @Override
+    public String getTest() {
+        return "can";
     }
 }

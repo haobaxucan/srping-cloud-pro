@@ -1,13 +1,16 @@
 package com.ecpss.service;
 
-import com.ecpss.service.impl.DemoServiceFallback;
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  * Created by xc on 2019/7/17.
  */
-@FeignClient(value = "FEIGN-PROVIDER",fallback =DemoServiceFallback.class )
-public interface FeignTicketSerivceDemo extends FeignTicketSerivce{
+@FeignClient(value = "FEIGN-PROVIDER")
+public interface FeignTicketSerivce {
+
+    @RequestMapping("/ticket")
+    public String getTicket();
     /**
      *dd
      这里实现服务降级
